@@ -1,0 +1,4 @@
+rootProject.name = 'inventory-framework'
+include 'plugin'
+include 'lib'
+

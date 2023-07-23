@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="adfdbbb1-6978-41b6-a387-b6073e730fa7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/HOME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/INSTALLATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/INVENTORY-WITHOUT-LAYOUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/ITEM-HELPER.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/image/main-class-model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/InventoryProctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/InventoryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/layout/Layout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/layout/frame/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/list/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/list/LayoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/UpdateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/scheduler/UpdateScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/type/UpdateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/listener/InventoryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/page/PaginatedInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/page/model/ItemModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/sound/SoundType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/ItemHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemInteract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/util/SkullMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/InventoryPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/command/InventoryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/demonstration/InventoryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/listener/ListenerProctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/util/ClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/plugin">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventory-framework" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventory-framework" type="f1a62948:ProjectNode" />
+                <item name="plugin" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventory-framework" type="f1a62948:ProjectNode" />
+                <item name="plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventory-framework" type="f1a62948:ProjectNode" />
+                <item name="plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SstOBn6pea9IO7itY4hd1ySgQS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/Development/Java Studio/source/Random/inventory-framework/lib/src/main/java/com/github/gabriaum/inventory/engine/event&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Development\Java Studio\source\Random\inventory-framework\lib\src\main\java\com\github\gabriaum\inventory\engine\event" />
+      <recent name="I:\Development\Java Studio\source\Random\inventory-framework\lib\src\main\java\com\github\gabriaum\inventory\engine" />
+      <recent name="I:\Development\Java Studio\source\Random\inventory-framework\plugin\src\main\java\com\github\gabriaum\inventory\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.gabriaum.inventory.engine" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle --debug" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.inventory-framework:plugin [build]">
+    <configuration name="inventory-framework" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--debug" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="inventory-framework:plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="inventory-framework:plugin [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.inventory-framework:plugin [build]" />
+        <item itemvalue="Gradle.inventory-framework:plugin [clean]" />
+        <item itemvalue="Gradle.inventory-framework" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adfdbbb1-6978-41b6-a387-b6073e730fa7" name="Changes" comment="" />
+      <created>1689947138198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689947138198</updated>
+      <workItem from="1689947140716" duration="2002000" />
+      <workItem from="1689949171694" duration="12167000" />
+      <workItem from="1689979746960" duration="1059000" />
+      <workItem from="1690028503052" duration="21703000" />
+      <workItem from="1690060760263" duration="128000" />
+      <workItem from="1690060901664" duration="10843000" />
+      <workItem from="1690113360905" duration="17000" />
+      <workItem from="1690115291243" duration="1985000" />
+      <workItem from="1690121041530" duration="133000" />
+      <workItem from="1690121229328" duration="865000" />
+      <workItem from="1690127131465" duration="1502000" />
+      <workItem from="1690130728619" duration="3439000" />
+      <workItem from="1690137417782" duration="695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

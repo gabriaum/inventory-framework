@@ -1,0 +1,26 @@
+allprojects {
+    apply plugin: 'java'
+
+    afterEvaluate {
+        group = 'com.gabriaum.inventory'
+        version = '1.0.0'
+
+        compileJava.options.encoding('UTF-8')
+
+        java {
+            sourceCompatibility = JavaVersion.VERSION_1_8
+            targetCompatibility = JavaVersion.VERSION_1_8
+        }
+
+        repositories {
+            mavenCentral()
+        }
+
+        dependencies {
+            def lombok = 'org.projectlombok:lombok:1.18.26'
+
+            compileOnly(lombok)
+            annotationProcessor(lombok)
+        }
+    }
+}

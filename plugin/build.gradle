@@ -1,0 +1,51 @@
+plugins {
+    id("net.minecrell.plugin-yml.bukkit") version "0.5.1"
+}
+
+archivesBaseName = 'inventory-framework'
+
+repositories {
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        content {
+            includeGroup 'org.bukkit'
+            includeGroup 'org.spigotmc'
+        }
+    }
+
+    maven {
+        url = 'https://oss.sonatype.org/content/repositories/snapshots'
+    }
+
+    maven {
+        url = 'https://oss.sonatype.org/content/repositories/central'
+    }
+}
+
+bukkit {
+    name = "InventoryFramework"
+    main = "com.github.gabriaum.inventory.InventoryPlugin"
+    version = "1.0.0"
+    author = "gabriaum"
+    commands {
+        inventory {
+            description = "The main inventory command"
+            aliases = ["inv", "invhelp"]
+        }
+    }
+}
+
+dependencies {
+    implementation project(':lib')
+
+    compileOnly('org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT',)
+}
+
+jar {
+    from {
+        configurations.runtimeClasspath.collect({
+            it.isDirectory() ? it : zipTree(it)
+        })
+    }
+}
