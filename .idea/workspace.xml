@@ -5,52 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adfdbbb1-6978-41b6-a387-b6073e730fa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/HOME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/INSTALLATION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/INVENTORY-WITHOUT-LAYOUT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/ITEM-HELPER.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/image/main-class-model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/InventoryProctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/InventoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/layout/Layout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/layout/frame/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/list/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/list/LayoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/UpdateEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/scheduler/UpdateScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/type/UpdateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/listener/InventoryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/page/PaginatedInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/page/model/ItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/sound/SoundType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/ItemHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemInteract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/util/SkullMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/InventoryPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/command/InventoryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/demonstration/InventoryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/listener/ListenerProctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/util/ClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lib/inventory-framework.lib.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/plugin/inventory-framework.plugin.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/listener/ItemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/com/gabriaum/inventory/demonstration/NormalModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/InventoryProctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/InventoryProctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/InventoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/configuration/InventoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/layout/Layout.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/configuration/layout/Layout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/configuration/layout/frame/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/configuration/layout/frame/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/list/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/controller/list/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/controller/list/LayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/controller/list/LayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/UpdateEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/event/UpdateEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/scheduler/UpdateScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/event/scheduler/UpdateScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/event/type/UpdateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/event/type/UpdateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/listener/InventoryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/listener/InventoryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/module/Paginated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/module/type/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/module/type/PaginatedInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/sound/SoundType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/sound/SoundType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/ItemHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/stack/ItemHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/stack/action/ItemClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/stack/action/ItemInteract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/action/ItemUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/stack/action/ItemUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/github/gabriaum/inventory/engine/stack/util/SkullMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/gabriaum/inventory/engine/stack/util/SkullMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/InventoryPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/com/gabriaum/inventory/InventoryPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/command/InventoryCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/demonstration/InventoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/com/gabriaum/inventory/demonstration/PaginatedModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/demonstration/object/Fodastico.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/com/gabriaum/inventory/demonstration/object/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/listener/ListenerProctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/com/github/gabriaum/inventory/util/ClassLoader.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,29 +115,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;I:/Development/Java Studio/source/Random/inventory-framework/lib/src/main/java/com/github/gabriaum/inventory/engine/event&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "I:/Development/Java Studio/source/Random/inventory-framework/lib/src/main/java/com/github/gabriaum/inventory/engine/listener",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Development\Java Studio\source\Random\inventory-framework\lib\src\main\java\com\github\gabriaum\inventory\engine\listener" />
       <recent name="I:\Development\Java Studio\source\Random\inventory-framework\lib\src\main\java\com\github\gabriaum\inventory\engine\event" />
       <recent name="I:\Development\Java Studio\source\Random\inventory-framework\lib\src\main\java\com\github\gabriaum\inventory\engine" />
       <recent name="I:\Development\Java Studio\source\Random\inventory-framework\plugin\src\main\java\com\github\gabriaum\inventory\util" />
@@ -256,6 +247,7 @@
       <workItem from="1690127131465" duration="1502000" />
       <workItem from="1690130728619" duration="3439000" />
       <workItem from="1690137417782" duration="695000" />
+      <workItem from="1693583038925" duration="934000" />
     </task>
     <servers />
   </component>

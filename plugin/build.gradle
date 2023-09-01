@@ -25,7 +25,7 @@ repositories {
 
 bukkit {
     name = "InventoryFramework"
-    main = "com.github.gabriaum.inventory.InventoryPlugin"
+    main = "com.gabriaum.inventory.InventoryPlugin"
     version = "1.0.0"
     author = "gabriaum"
     commands {
